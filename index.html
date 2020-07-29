@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Face recognition in javascript with pre-trained models and face-api.js">
+    <title>Face Recognition</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="js/face-api.min.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div id="trainingDataContainer">
+
+        <div id="nameContainer">
+
+            <ul id="nameList">
+
+            </ul>
+
+        </div>
+
+        <div>
+            <input type="text" id="txtName"><br />
+            <input type="file" id="file"><br/>
+            <button id="btnAdd">Add</button>
+        </div>
+
+    </div>
+
+    <div id="videoContainer">
+        <video id="video" width="720" height="480" autoplay muted></video>
+    </div>
+</body>
+
+</html>
